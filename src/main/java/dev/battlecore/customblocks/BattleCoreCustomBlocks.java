@@ -19,6 +19,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -136,7 +137,7 @@ public final class BattleCoreCustomBlocks extends JavaPlugin implements CommandE
         return item;
     }
 
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onMenuClick(InventoryClickEvent event) {
         InventoryHolder holder = event.getInventory().getHolder();
         if (!(holder instanceof CustomBlockMenu)) {
@@ -167,7 +168,7 @@ public final class BattleCoreCustomBlocks extends JavaPlugin implements CommandE
         ));
     }
 
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onInteract(PlayerInteractEvent event) {
         if (event.getHand() != EquipmentSlot.HAND || event.getAction() != org.bukkit.event.block.Action.RIGHT_CLICK_BLOCK) {
             return;
@@ -219,7 +220,7 @@ public final class BattleCoreCustomBlocks extends JavaPlugin implements CommandE
         player.sendMessage(Component.text("That space is blocked or outside the world border.", NamedTextColor.RED));
     }
 
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onBreak(BlockBreakEvent event) {
         Block block = event.getBlock();
         if (block.getType() != Material.NOTE_BLOCK || !(block.getBlockData() instanceof NoteBlock noteBlock)) {

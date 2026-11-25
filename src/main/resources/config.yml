@@ -1,6 +1,6 @@
 resource-pack:
   enabled: true
   url: 'https://github.com/cityokara53-pixel/battlecore-custom-blocks/releases/download/v1.0.0/BattleCore-Custom-Blocks-1.0.0.zip'
-  sha1: 'f4004e45ed4b81f5b9435cf08a54f7408dcd4d44'
+  sha1: '03df2be493aedcc525a33d50f1e20612b7ce8602'
   required: false
   prompt: 'BattleCore Custom Blocks - five horror-themed blocks'
