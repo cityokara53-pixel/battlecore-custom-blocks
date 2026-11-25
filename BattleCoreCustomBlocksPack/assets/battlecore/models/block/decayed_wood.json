@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "battlecore:block/decayed_wood_side",
+    "down": "battlecore:block/decayed_wood_bottom",
+    "up": "battlecore:block/decayed_wood_top",
+    "north": "battlecore:block/decayed_wood_side",
+    "east": "battlecore:block/decayed_wood_side",
+    "south": "battlecore:block/decayed_wood_side",
+    "west": "battlecore:block/decayed_wood_side"
+  }
+}

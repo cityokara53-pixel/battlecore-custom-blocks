@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "battlecore:block/containment_glass_side",
+    "down": "battlecore:block/containment_glass_bottom",
+    "up": "battlecore:block/containment_glass_top",
+    "north": "battlecore:block/containment_glass_side",
+    "east": "battlecore:block/containment_glass_side",
+    "south": "battlecore:block/containment_glass_side",
+    "west": "battlecore:block/containment_glass_side"
+  }
+}

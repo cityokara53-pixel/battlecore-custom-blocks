@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "battlecore:block/quarantine_door_steel",
+    "down": "battlecore:block/quarantine_door_top",
+    "up": "battlecore:block/quarantine_door_top",
+    "north": "battlecore:block/quarantine_door_side",
+    "east": "battlecore:block/quarantine_door_steel",
+    "south": "battlecore:block/quarantine_door_side",
+    "west": "battlecore:block/quarantine_door_warning"
+  }
+}

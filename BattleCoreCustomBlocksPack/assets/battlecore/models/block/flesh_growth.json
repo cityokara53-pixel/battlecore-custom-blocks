@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "battlecore:block/flesh_growth_side",
+    "down": "battlecore:block/flesh_growth_bottom",
+    "up": "battlecore:block/flesh_growth_top",
+    "north": "battlecore:block/flesh_growth_side",
+    "east": "battlecore:block/flesh_growth_side",
+    "south": "battlecore:block/flesh_growth_side",
+    "west": "battlecore:block/flesh_growth_side"
+  }
+}

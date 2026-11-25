@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "battlecore:block/rusted_vent_grate_side",
+    "down": "battlecore:block/rusted_vent_grate_bottom",
+    "up": "battlecore:block/rusted_vent_grate_top",
+    "north": "battlecore:block/rusted_vent_grate_side",
+    "east": "battlecore:block/rusted_vent_grate_side",
+    "south": "battlecore:block/rusted_vent_grate_side",
+    "west": "battlecore:block/rusted_vent_grate_side"
+  }
+}

@@ -1,0 +1,14 @@
+name: BattleCoreCustomBlocks
+version: 1.0.0
+main: dev.battlecore.customblocks.BattleCoreCustomBlocks
+api-version: '26.3'
+description: Five resource-pack custom blocks with a click-to-select GUI.
+commands:
+  customblock:
+    description: Open the BattleCore custom block selector.
+    usage: /customblock [pack]
+    aliases: [cb]
+permissions:
+  battlecorecustomblocks.use:
+    description: Allows use of the custom block GUI.
+    default: true
